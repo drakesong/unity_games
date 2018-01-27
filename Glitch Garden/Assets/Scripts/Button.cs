@@ -4,9 +4,9 @@ using System.Collections;
 public class Button : MonoBehaviour {
 	
 	public GameObject defenderPrefab;
+	public static GameObject selectedDefender;
 
 	private Button[] buttonArray;
-	private static GameObject selectedDefender;
 	
 	// Use this for initialization
 	void Start () {
