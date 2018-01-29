@@ -4,6 +4,8 @@ using System.Collections;
 [RequireComponent (typeof (Rigidbody2D))]
 public class Attacker : MonoBehaviour {
 
+	public float seenEverySeconds;
+	
 	private float currentSpeed;
 	private GameObject currentTarget;
 	private Animator anim;
@@ -22,7 +24,7 @@ public class Attacker : MonoBehaviour {
 	}
 	
 	void OnTriggerEnter2D() {
-		Debug.Log(name + " trigger enter");
+		
 	}
 	
 	public void SetSpeed(float speed) {
