@@ -1,0 +1,83 @@
+[33mcommit 87751784790ff72b2dea81e480f4d2efcf357735[m
+Author: Drake Song <drakesong216@gmail.com>
+Date:   Mon Jan 29 23:01:02 2018 -0800
+
+    Added level timer
+
+[33mcommit b62fc725a351aab406eaac0d8afe6aa77d0aa8ee[m
+Author: Drake Song <drakesong216@gmail.com>
+Date:   Mon Jan 29 22:36:08 2018 -0800
+
+    Added lose collider
+
+[33mcommit 58b580802b4959893b3ec7202e3cf887c368dd5b[m
+Author: Drake Song <drakesong216@gmail.com>
+Date:   Sun Jan 28 23:29:37 2018 -0800
+
+    Updated currency system
+
+[33mcommit f398bc6b0886939acb1017675dae86755a17ae23[m
+Author: Drake Song <drakesong216@gmail.com>
+Date:   Sun Jan 28 17:06:57 2018 -0800
+
+    Added currency system
+
+[33mcommit 4e117f507816a677cdd949671a342f9502bc45a1[m
+Author: Drake Song <drakesong216@gmail.com>
+Date:   Sun Jan 28 16:42:56 2018 -0800
+
+    Defenders detect attackers
+
+[33mcommit b3f9c3d1964a1ea5db81829e067a95869ed03a49[m
+Author: Drake Song <drakesong216@gmail.com>
+Date:   Sun Jan 28 16:27:55 2018 -0800
+
+    Added enemy spawner
+
+[33mcommit 465f4b666ec7a70194fafb23a93257d2840d44be[m
+Author: Drake Song <drakesong216@gmail.com>
+Date:   Sat Jan 27 02:08:01 2018 -0800
+
+    Implemented defender spawner
+
+[33mcommit bc2c0ae281a84016f715115b2ed88b1211309219[m
+Author: Drake Song <drakesong216@gmail.com>
+Date:   Sat Jan 27 01:44:53 2018 -0800
+
+    Changed to best practice for creating only when needed
+
+[33mcommit 9ea0299ec8ad7773ea56839428f947d5bb9450c9[m
+Author: Drake Song <drakesong216@gmail.com>
+Date:   Sat Jan 27 01:34:01 2018 -0800
+
+    Added basic framework for buttons
+
+[33mcommit 93ad4691a5b47e47c610c293d7afd9f99aee0146[m
+Author: Drake Song <drakesong216@gmail.com>
+Date:   Fri Jan 26 23:48:33 2018 -0800
+
+    Fine tuned projectile properties
+
+[33mcommit 339fe7204f0c045f0aff1511c82b47b49e54af17[m
+Author: Drake Song <drakesong216@gmail.com>
+Date:   Fri Jan 26 23:38:36 2018 -0800
+
+    Fixed fire rate of projectiles
+
+[33mcommit 095dbbc093e81956fa5228984df5ae3046bcb4ec[m
+Author: Drake Song <drakesong216@gmail.com>
+Date:   Fri Jan 26 23:23:17 2018 -0800
+
+    Added projectiles and set their properties
+
+[33mcommit f7ac5383e692d36877b0997d4678db23edf1f31b[m
+Author: Drake Song <drakesong216@gmail.com>
+Date:   Tue Jan 23 21:41:44 2018 -0800
+
+    Added Attacker behaviors
+
+[33mcommit 6f6f47f029b69cc913788ec3c35313c9b2dffed6[m
+Author: Drake Song <drakesong216@gmail.com>
+Date:   Tue Jan 23 16:28:09 2018 -0800
+
+    Initial commit
