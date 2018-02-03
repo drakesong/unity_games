@@ -19,3 +19,5 @@ course on Udemy.
 5. Glitch Garden
     * Plants vs. Zombies game to learn sprite animations and more complex
     grid systems.
+6. Bowlmaster
+    * Learning the use of Physics and Unity 5
