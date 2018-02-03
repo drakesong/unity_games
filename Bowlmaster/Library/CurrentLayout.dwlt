@@ -324,19 +324,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Drake\Documents\Unity Udemy\Bowlmaster
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5e260000
-    m_LastClickedID: 9822
-    m_ExpandedIDs: 00000000c02400003225000038250000422500004c25000000ca9a3bffffff7f
+    m_SelectedIDs: be240000
+    m_LastClickedID: 9406
+    m_ExpandedIDs: 00000000be240000362500003c250000482500005225000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -364,7 +364,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c02400003225000038250000422500004c250000
+    m_ExpandedIDs: 00000000be240000362500003c2500004825000052250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -445,7 +445,7 @@ MonoBehaviour:
     y: 92
     width: 387
     height: 936
-  m_ScrollPosition: {x: 0, y: 285.95508}
+  m_ScrollPosition: {x: 0, y: 290.00244}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160
@@ -480,20 +480,20 @@ MonoBehaviour:
     height: 558
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c0250000
-    m_LastClickedID: 9664
-    m_ExpandedIDs: e6fbffff0000000008260000
+    m_SelectedIDs: b6250000
+    m_LastClickedID: 9654
+    m_ExpandedIDs: f666ffff2e6bffff6cfbffffe6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Bowling Pin (1)
-      m_OriginalName: Bowling Pin (1)
+      m_Name: Top Camera
+      m_OriginalName: Top Camera
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -1178
+      m_UserData: -12270
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -532,14 +532,14 @@ MonoBehaviour:
     width: 1148
     height: 558
   m_SceneLighting: 1
-  lastFramingTime: 631.345700558865
+  lastFramingTime: 685.0378513901193
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.014410496, y: 18.914417, z: 1828.2916}
+    m_Target: {x: 342.50165, y: 256.0704, z: 127.648926}
     speed: 2
-    m_Value: {x: -0.014410496, y: 18.914417, z: 1828.2916}
+    m_Value: {x: 342.50165, y: 256.0704, z: 127.648926}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -562,13 +562,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.29157418, y: -0.007174021, z: 0.002186849, w: -0.9565188}
+    m_Target: {x: -0.07381376, y: 0.0044877296, z: -0.0003321614, w: -0.9972619}
     speed: 2
-    m_Value: {x: -0.29157418, y: -0.007174021, z: 0.002186849, w: -0.9565188}
+    m_Value: {x: -0.07381376, y: 0.0044877296, z: -0.0003321614, w: -0.9972619}
   m_Size:
-    m_Target: 68.36739
+    m_Target: 1323.8058
     speed: 2
-    m_Value: 68.36739
+    m_Value: 1323.8058
   m_Ortho:
     m_Target: 0
     speed: 2
