@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class PinSetter : MonoBehaviour {
     public int lastStandingCount = -1;
     public Text standingDisplay;
+    public float distToRaise = 40f;
+    public GameObject pinSet;
 
     private bool ballEnteredBox = false;
     private float lastChangeTime;
@@ -88,6 +90,6 @@ public class PinSetter : MonoBehaviour {
     }
 
     public void RenewPins() {
-
+        Instantiate(pinSet, new Vector3(0, distToRaise, 1829), Quaternion.identity);
     }
 }
