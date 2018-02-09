@@ -2,34 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent (typeof(Ball))]
+[RequireComponent(typeof(Ball))]
 public class DragLaunch : MonoBehaviour {
 
     private Ball ball;
     private Vector3 dragStart, dragEnd;
     private float startTime, endTime;
 
-	// Use this for initialization
-	void Start () {
-        ball = GetComponent<Ball>();	
-	}
+    // Use this for initialization
+    void Start() {
+        ball = GetComponent<Ball>();
+    }
 
-    public void MoveStart(float amount)
-    {
-        if (!ball.inPlay)
-        {
+    public void MoveStart(float amount) {
+        if (!ball.inPlay) {
             ball.transform.Translate(new Vector3(amount, 0, 0));
         }
     }
 
-    public void DragStart()
-    {
+    public void DragStart() {
         dragStart = Input.mousePosition;
         startTime = Time.time;
     }
 
-    public void DragEnd()
-    {
+    public void DragEnd() {
         dragEnd = Input.mousePosition;
         endTime = Time.time;
 

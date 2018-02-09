@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class PinSetter : MonoBehaviour {
     public int lastStandingCount = -1;
     public Text standingDisplay;
-    public float distToRaise = 40f;
     public GameObject pinSet;
+    public float distToRaise = 40f;
 
     private bool ballEnteredBox = false;
     private float lastChangeTime;
@@ -44,14 +44,6 @@ public class PinSetter : MonoBehaviour {
         if (thingHit.GetComponent<Ball>()) {
             ballEnteredBox = true;
             standingDisplay.color = Color.red;
-        }
-    }
-
-    void OnTriggerExit(Collider collider) {
-        GameObject thingLeft = collider.gameObject;
-
-        if (thingLeft.GetComponent<Pin>()) {
-            Destroy(thingLeft);
         }
     }
 
