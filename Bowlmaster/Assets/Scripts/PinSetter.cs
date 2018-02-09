@@ -11,79 +11,83 @@ public class PinSetter : MonoBehaviour {
     private float lastChangeTime;
     private Ball ball;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start() {
         ball = GameObject.FindObjectOfType<Ball>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    }
+
+    // Update is called once per frame
+    void Update() {
         standingDisplay.text = CountStanding().ToString();
 
-        if (ballEnteredBox)
-        {
+        if (ballEnteredBox) {
             CheckStanding();
         }
-	}
+    }
 
-    int CountStanding()
-    {
+    int CountStanding() {
         int standing = 0;
 
-        foreach (Pin pin in GameObject.FindObjectsOfType<Pin>())
-        {
-            if (pin.IsStanding())
-            {
+        foreach (Pin pin in GameObject.FindObjectsOfType<Pin>()) {
+            if (pin.IsStanding()) {
                 standing++;
             }
         }
         return standing;
     }
 
-    void OnTriggerEnter(Collider collider)
-    {
+    void OnTriggerEnter(Collider collider) {
         GameObject thingHit = collider.gameObject;
 
-        if (thingHit.GetComponent<Ball>())
-        {
+        if (thingHit.GetComponent<Ball>()) {
             ballEnteredBox = true;
             standingDisplay.color = Color.red;
         }
     }
 
-    void OnTriggerExit(Collider collider)
-    {
+    void OnTriggerExit(Collider collider) {
         GameObject thingLeft = collider.gameObject;
 
-        if (thingLeft.GetComponent<Pin>())
-        {
+        if (thingLeft.GetComponent<Pin>()) {
             Destroy(thingLeft);
         }
     }
 
-    void CheckStanding()
-    {
+    void CheckStanding() {
         int currentStanding = CountStanding();
 
-        if (currentStanding != lastStandingCount)
-        {
+        if (currentStanding != lastStandingCount) {
             lastChangeTime = Time.time;
             lastStandingCount = currentStanding;
             return;
         }
 
         float settleTime = 3f;
-        if ((Time.time - lastChangeTime) > settleTime)
-        {
+        if ((Time.time - lastChangeTime) > settleTime) {
             PinsHaveSettled();
         }
     }
 
-    void PinsHaveSettled()
-    {
+    void PinsHaveSettled() {
         ball.Reset();
         lastStandingCount = -1;
         ballEnteredBox = false;
         standingDisplay.color = Color.green;
+    }
+
+    public void RaisePins() {
+        foreach (Pin pin in GameObject.FindObjectsOfType<Pin>()) {
+            pin.RaiseIfStanding();
+        }
+    }
+
+    public void LowerPins() {
+        foreach (Pin pin in GameObject.FindObjectsOfType<Pin>()) {
+            pin.Lower();
+        }
+    }
+
+    public void RenewPins() {
+
     }
 }
