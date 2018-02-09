@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Pin : MonoBehaviour {
-    public float standingThreshold = 3f;
+    public float standingThreshold = 5f;
 
 	// Use this for initialization
 	void Start () {
