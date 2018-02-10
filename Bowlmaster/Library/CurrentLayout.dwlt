@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 11
+  controlID: 50
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 12
+  controlID: 51
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 13
+  controlID: 52
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -237,7 +237,7 @@ MonoBehaviour:
   - {fileID: 20}
   - {fileID: 13}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -358,7 +358,7 @@ MonoBehaviour:
       name: Assembly-CSharp-Editor.dll
       fullName: C:/Users/Drake/Documents/Unity Udemy/Bowlmaster/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
       resultStatus: 1
-      duration: 0.3431622
+      duration: 0.5632204
       messages: 
       output: 
       stacktrace: 
@@ -369,7 +369,7 @@ MonoBehaviour:
       name: ActionMasterTest
       fullName: ActionMasterTest
       resultStatus: 1
-      duration: 0.3323425
+      duration: 0.5510104
       messages: 
       output: 
       stacktrace: 
@@ -380,7 +380,7 @@ MonoBehaviour:
       name: T00PassingTest
       fullName: ActionMasterTest.T00PassingTest
       resultStatus: 1
-      duration: 0.0246722
+      duration: 0.0383729
       messages: 
       output: 
       stacktrace: 
@@ -391,7 +391,7 @@ MonoBehaviour:
       name: T01OneStrikeReturnsEndTurn
       fullName: ActionMasterTest.T01OneStrikeReturnsEndTurn
       resultStatus: 1
-      duration: 0.0151799
+      duration: 0.0232412
       messages: 
       output: 
       stacktrace: 
@@ -402,7 +402,7 @@ MonoBehaviour:
       name: T02Bowl8ReturnsTidy
       fullName: ActionMasterTest.T02Bowl8ReturnsTidy
       resultStatus: 1
-      duration: 0.0131623
+      duration: 0.0206046
       messages: 
       output: 
       stacktrace: 
@@ -413,7 +413,7 @@ MonoBehaviour:
       name: T04Bowl28SpareReturnsEndTurn
       fullName: ActionMasterTest.T04Bowl28SpareReturnsEndTurn
       resultStatus: 1
-      duration: 0.0131054
+      duration: 0.0100226
       messages: 
       output: 
       stacktrace: 
@@ -424,7 +424,7 @@ MonoBehaviour:
       name: T05CheckResetAtStrikeInLastFrame
       fullName: ActionMasterTest.T05CheckResetAtStrikeInLastFrame
       resultStatus: 1
-      duration: 0.0131312
+      duration: 0.0196057
       messages: 
       output: 
       stacktrace: 
@@ -435,7 +435,7 @@ MonoBehaviour:
       name: T06CheckResetAtSpareInLastFrame
       fullName: ActionMasterTest.T06CheckResetAtSpareInLastFrame
       resultStatus: 1
-      duration: 0.0132395
+      duration: 0.0184523
       messages: 
       output: 
       stacktrace: 
@@ -446,7 +446,7 @@ MonoBehaviour:
       name: T07YouTubeRollsEndInEndGame
       fullName: ActionMasterTest.T07YouTubeRollsEndInEndGame
       resultStatus: 1
-      duration: 0.0062943
+      duration: 0.0065273
       messages: 
       output: 
       stacktrace: 
@@ -457,7 +457,7 @@ MonoBehaviour:
       name: T08GameEndsAtBowl20
       fullName: ActionMasterTest.T08GameEndsAtBowl20
       resultStatus: 1
-      duration: 0.0066262
+      duration: 0.0098059
       messages: 
       output: 
       stacktrace: 
@@ -468,7 +468,7 @@ MonoBehaviour:
       name: T09DarylBowl20Test
       fullName: ActionMasterTest.T09DarylBowl20Test
       resultStatus: 1
-      duration: 0.0081372
+      duration: 0.0194486
       messages: 
       output: 
       stacktrace: 
@@ -479,7 +479,7 @@ MonoBehaviour:
       name: T10BensBowl20Test
       fullName: ActionMasterTest.T10BensBowl20Test
       resultStatus: 1
-      duration: 0.0054566
+      duration: 0.0186508
       messages: 
       output: 
       stacktrace: 
@@ -490,7 +490,7 @@ MonoBehaviour:
       name: T11NathanBowlIndexTest
       fullName: ActionMasterTest.T11NathanBowlIndexTest
       resultStatus: 1
-      duration: 0.0074484
+      duration: 0.0177168
       messages: 
       output: 
       stacktrace: 
@@ -501,14 +501,14 @@ MonoBehaviour:
       name: T12Dondi10thFrameTurkey
       fullName: ActionMasterTest.T12Dondi10thFrameTurkey
       resultStatus: 1
-      duration: 0.0062795
+      duration: 0.0199348
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    m_ResultText: T05CheckResetAtStrikeInLastFrame (0.013s)
+    m_ResultText: T05CheckResetAtStrikeInLastFrame (0.020s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
@@ -715,9 +715,9 @@ MonoBehaviour:
     height: 539
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6a270000
+    m_SelectedIDs: 6c2500006e25000070250000722500007425000076250000782500007a2500007c2500007e250000
     m_LastClickedID: 0
-    m_ExpandedIDs: e6fbffff000000002826000068260000
+    m_ExpandedIDs: 24e8ffff0ae9ffffe4fbffff00000000e6270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -772,9 +772,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -637.48486, y: -531.58453, z: 2029.3481}
+    m_Target: {x: -471.53928, y: -799.62244, z: 1685.9496}
     speed: 2
-    m_Value: {x: -637.48486, y: -531.58453, z: 2029.3481}
+    m_Value: {x: -471.53928, y: -799.62244, z: 1685.9496}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -797,13 +797,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.21517493, y: 0.6228744, z: -0.18376057, w: -0.7293554}
+    m_Target: {x: -0.37834308, y: 0.5039434, z: -0.2606839, w: -0.731397}
     speed: 2
-    m_Value: {x: -0.21517493, y: 0.6228744, z: -0.18376057, w: -0.7293554}
+    m_Value: {x: -0.37834308, y: 0.5039434, z: -0.2606839, w: -0.731397}
   m_Size:
-    m_Target: 1217.4817
+    m_Target: 1205.2047
     speed: 2
-    m_Value: 1217.4817
+    m_Value: 1205.2047
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -877,18 +877,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Drake\Documents\Unity Udemy\Bowlmaster
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9e250000
-    m_LastClickedID: 9630
+    m_SelectedIDs: 52250000
+    m_LastClickedID: 9554
     m_ExpandedIDs: 00000000cc2400004a2500005c25000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -945,7 +945,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300007828000000000000622500002cf0ffff
+    m_ExpandedInstanceIDs: c62300007828000000000000622500002cf0ffff6a250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

@@ -87,6 +87,7 @@
     <Compile Include="Assets\Scripts\LaneBox.cs" />
     <Compile Include="Assets\Scripts\Pin.cs" />
     <Compile Include="Assets\Scripts\PinSetter.cs" />
+    <Compile Include="Assets\Scripts\ScoreMaster.cs" />
     <Compile Include="Assets\Scripts\Shredder.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
