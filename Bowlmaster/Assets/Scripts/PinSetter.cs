@@ -12,10 +12,14 @@ public class PinSetter : MonoBehaviour {
     private bool ballEnteredBox = false;
     private float lastChangeTime;
     private Ball ball;
+    private int lastSettledCount = 10;
+    private ActionMaster actionMaster = new ActionMaster();
+    private Animator animator;
 
     // Use this for initialization
     void Start() {
         ball = GameObject.FindObjectOfType<Ball>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -63,6 +67,15 @@ public class PinSetter : MonoBehaviour {
     }
 
     void PinsHaveSettled() {
+        int pinFall = lastSettledCount - CountStanding();
+        lastSettledCount = CountStanding();
+
+        ActionMaster.Action action = actionMaster.Bowl(pinFall);
+
+        if (action == ActionMaster.Action.Tidy) {
+            animator.SetTrigger("tidyTrigger");
+        }
+
         ball.Reset();
         lastStandingCount = -1;
         ballEnteredBox = false;
@@ -83,5 +96,8 @@ public class PinSetter : MonoBehaviour {
 
     public void RenewPins() {
         Instantiate(pinSet, new Vector3(0, distToRaise, 1829), Quaternion.identity);
+        foreach (Pin pin in GameObject.FindObjectsOfType<Pin>()) {
+            pin.GetComponent<Rigidbody>().useGravity = false;
+        }
     }
 }
