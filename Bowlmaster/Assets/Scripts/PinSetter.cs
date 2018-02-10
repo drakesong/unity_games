@@ -67,13 +67,25 @@ public class PinSetter : MonoBehaviour {
     }
 
     void PinsHaveSettled() {
-        int pinFall = lastSettledCount - CountStanding();
-        lastSettledCount = CountStanding();
+        int standing = CountStanding();
+        int pinFall = lastSettledCount - standing;
+        lastSettledCount = standing;
 
         ActionMaster.Action action = actionMaster.Bowl(pinFall);
 
         if (action == ActionMaster.Action.Tidy) {
             animator.SetTrigger("tidyTrigger");
+        }
+        else if (action == ActionMaster.Action.EndTurn) {
+            animator.SetTrigger("resetTrigger");
+            lastSettledCount = 10;
+        }
+        else if (action == ActionMaster.Action.Reset) {
+            animator.SetTrigger("resetTrigger");
+            lastSettledCount = 10;
+        }
+        else if (action == ActionMaster.Action.EndGame) {
+            throw new UnityException("End Game");
         }
 
         ball.Reset();
