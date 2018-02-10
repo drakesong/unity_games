@@ -40,7 +40,7 @@ public class ActionMasterTest {
 
     [Test]
     public void T05CheckResetAtStrikeInLastFrame() {
-        int[] rolls = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
+        int[] rolls = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
         foreach (int roll in rolls) {
             actionMaster.Bowl(roll);
         }
@@ -49,7 +49,7 @@ public class ActionMasterTest {
 
     [Test]
     public void T06CheckResetAtSpareInLastFrame() {
-        int[] rolls = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
+        int[] rolls = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
         foreach (int roll in rolls) {
             actionMaster.Bowl(roll);
         }
@@ -59,7 +59,7 @@ public class ActionMasterTest {
 
     [Test]
     public void T07YouTubeRollsEndInEndGame() {
-        int[] rolls = {8, 2, 7, 3, 3, 4, 10, 2, 8, 10, 10, 8, 0, 10, 8, 2};
+        int[] rolls = { 8, 2, 7, 3, 3, 4, 10, 2, 8, 10, 10, 8, 0, 10, 8, 2 };
         foreach (int roll in rolls) {
             actionMaster.Bowl(roll);
         }
@@ -68,10 +68,28 @@ public class ActionMasterTest {
 
     [Test]
     public void T08GameEndsAtBowl20() {
-        int[] rolls = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
+        int[] rolls = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
         foreach (int roll in rolls) {
             actionMaster.Bowl(roll);
         }
         Assert.AreEqual(endGame, actionMaster.Bowl(1));
+    }
+
+    [Test]
+    public void T09DarylBowl20Test() {
+        int[] rolls = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 10 };
+        foreach (int roll in rolls) {
+            actionMaster.Bowl(roll);
+        }
+        Assert.AreEqual(tidy, actionMaster.Bowl(5));
+    }
+
+    [Test]
+    public void T10BensBowl20Test() {
+        int[] rolls = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 10 };
+        foreach (int roll in rolls) {
+            actionMaster.Bowl(roll);
+        }
+        Assert.AreEqual(tidy, actionMaster.Bowl(0));
     }
 }

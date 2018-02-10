@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 957
-  m_MinSize: {x: 506, y: 492}
+  m_MinSize: {x: 508, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 50
+  controlID: 11
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 957
-  m_MinSize: {x: 404, y: 492}
+  m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 51
+  controlID: 12
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 553
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 52
+  controlID: 13
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -256,8 +256,8 @@ MonoBehaviour:
     y: 0
     width: 389
     height: 957
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 21}
@@ -358,7 +358,7 @@ MonoBehaviour:
       name: Assembly-CSharp-Editor.dll
       fullName: C:/Users/Drake/Documents/Unity Udemy/Bowlmaster/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
       resultStatus: 1
-      duration: 0.2550814
+      duration: 0.4433245
       messages: 
       output: 
       stacktrace: 
@@ -369,7 +369,7 @@ MonoBehaviour:
       name: ActionMasterTest
       fullName: ActionMasterTest
       resultStatus: 1
-      duration: 0.242232
+      duration: 0.4228262
       messages: 
       output: 
       stacktrace: 
@@ -380,7 +380,7 @@ MonoBehaviour:
       name: T00PassingTest
       fullName: ActionMasterTest.T00PassingTest
       resultStatus: 1
-      duration: 0.0271461
+      duration: 0.036541
       messages: 
       output: 
       stacktrace: 
@@ -391,7 +391,7 @@ MonoBehaviour:
       name: T01OneStrikeReturnsEndTurn
       fullName: ActionMasterTest.T01OneStrikeReturnsEndTurn
       resultStatus: 1
-      duration: 0.0149232
+      duration: 0.0151419
       messages: 
       output: 
       stacktrace: 
@@ -402,7 +402,7 @@ MonoBehaviour:
       name: T02Bowl8ReturnsTidy
       fullName: ActionMasterTest.T02Bowl8ReturnsTidy
       resultStatus: 1
-      duration: 0.0119886
+      duration: 0.0102718
       messages: 
       output: 
       stacktrace: 
@@ -413,7 +413,7 @@ MonoBehaviour:
       name: T04Bowl28SpareReturnsEndTurn
       fullName: ActionMasterTest.T04Bowl28SpareReturnsEndTurn
       resultStatus: 1
-      duration: 0.0073976
+      duration: 0.012223
       messages: 
       output: 
       stacktrace: 
@@ -424,7 +424,7 @@ MonoBehaviour:
       name: T05CheckResetAtStrikeInLastFrame
       fullName: ActionMasterTest.T05CheckResetAtStrikeInLastFrame
       resultStatus: 1
-      duration: 0.0128758
+      duration: 0.0143692
       messages: 
       output: 
       stacktrace: 
@@ -435,7 +435,7 @@ MonoBehaviour:
       name: T06CheckResetAtSpareInLastFrame
       fullName: ActionMasterTest.T06CheckResetAtSpareInLastFrame
       resultStatus: 1
-      duration: 0.0132897
+      duration: 0.0159675
       messages: 
       output: 
       stacktrace: 
@@ -446,7 +446,7 @@ MonoBehaviour:
       name: T07YouTubeRollsEndInEndGame
       fullName: ActionMasterTest.T07YouTubeRollsEndInEndGame
       resultStatus: 1
-      duration: 0.0120781
+      duration: 0.0205173
       messages: 
       output: 
       stacktrace: 
@@ -457,14 +457,36 @@ MonoBehaviour:
       name: T08GameEndsAtBowl20
       fullName: ActionMasterTest.T08GameEndsAtBowl20
       resultStatus: 1
-      duration: 0.0127763
+      duration: 0.0089248
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    m_ResultText: T05CheckResetAtStrikeInLastFrame (0.013s)
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T09DarylBowl20Test]'
+      name: T09DarylBowl20Test
+      fullName: ActionMasterTest.T09DarylBowl20Test
+      resultStatus: 1
+      duration: 0.0098757
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Bowlmaster][Assembly-CSharp-Editor.dll][ActionMasterTest][T10BensBowl20Test]'
+      name: T10BensBowl20Test
+      fullName: ActionMasterTest.T10BensBowl20Test
+      resultStatus: 1
+      duration: 0.016642
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    m_ResultText: T05CheckResetAtStrikeInLastFrame (0.014s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
@@ -671,9 +693,9 @@ MonoBehaviour:
     height: 532
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9e270000
+    m_SelectedIDs: 38060000
     m_LastClickedID: 0
-    m_ExpandedIDs: 546affff1271ffff9274ffff0077ffff1a79ffff027dffffbe82fffffa84ffff9a88ffff268bffff5290fffffa94ffffa297fffff89affff3e9effff78a1ffffd2a6ffff0cbaffffe6bbffffa8bdffff68bfffff58c1ffff6ec3ffff44c5ffffdacbffff68ceffffe0d0ffffe6fbffff00000000
+    m_ExpandedIDs: 0eefffffc4f5ffffe6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -842,9 +864,9 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9a270000
-    m_LastClickedID: 10138
-    m_ExpandedIDs: 00000000c8240000462500005825000000ca9a3bffffff7f
+    m_SelectedIDs: 82250000
+    m_LastClickedID: 9602
+    m_ExpandedIDs: 00000000ca240000482500005a25000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -872,7 +894,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c8240000462500004c2500005825000062250000
+    m_ExpandedIDs: 00000000ca240000482500005a250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

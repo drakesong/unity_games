@@ -8,9 +8,7 @@ public class ActionMaster {
     private int bowl = 1;
 
     public Action Bowl(int pins) {
-        if (pins < 0 || pins > 10) {
-            throw new UnityException("Invalid pins");
-        }
+        if (pins < 0 || pins > 10) { throw new UnityException("Invalid pins"); }
 
         bowls[bowl - 1] = pins;
 
@@ -18,12 +16,25 @@ public class ActionMaster {
             return Action.EndGame;
         }
 
-        if (bowl >= 19 && Bowl21Awarded()) {
-            bowl += 1;
+        // Hanld last-frame special cases
+        if (bowl == 19 && pins == 10) {
+            bowl++;
             return Action.Reset;
         }
-        else if (bowl == 20 && !Bowl21Awarded()) {
-            return Action.EndGame;
+        else if (bowl == 20) {
+            bowl++;
+            if (bowls[19 - 1] == 10 && bowls[20 - 1] == 0) {
+                return Action.Tidy;
+            }
+            else if (bowls[19 - 1] + bowls[20 - 1] == 10) {
+                return Action.Reset;
+            }
+            else if (Bowl21Awarded()) {
+                return Action.Tidy;
+            }
+            else {
+                return Action.EndGame;
+            }
         }
 
         if (pins == 10) {
@@ -31,11 +42,11 @@ public class ActionMaster {
             return Action.EndTurn;
         }
 
-        if (bowl % 2 != 0) {
+        if (bowl % 2 != 0) { // Mid frame (or last frame)
             bowl += 1;
             return Action.Tidy;
         }
-        else if (bowl % 2 == 0) {
+        else if (bowl % 2 == 0) { // End of frame
             bowl += 1;
             return Action.EndTurn;
         }
@@ -44,6 +55,7 @@ public class ActionMaster {
     }
 
     private bool Bowl21Awarded() {
+        // Remember that arrays start counting at 0
         return (bowls[19 - 1] + bowls[20 - 1] >= 10);
     }
 }
