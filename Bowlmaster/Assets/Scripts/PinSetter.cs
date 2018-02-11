@@ -8,7 +8,6 @@ public class PinSetter : MonoBehaviour {
     public float distToRaise = 40f;
 
     private Animator animator;
-    private ActionMaster actionMaster = new ActionMaster();
     private PinCounter pinCounter;
 
     // Use this for initialization
