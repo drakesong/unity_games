@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class ScoreMaster {
+public static class ScoreMaster {
 
     public static List<int> ScoreCumulative(List<int> rolls) {
         List<int> cumulativeScores = new List<int>();
