@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Pin : MonoBehaviour {
-    public float standingThreshold = 5f;
+    public float standingThreshold = 8f;
     public float distToRaise = 40f;
 
     private Rigidbody rigidBody;
@@ -34,6 +34,7 @@ public class Pin : MonoBehaviour {
         if (IsStanding()) {
             rigidBody.useGravity = false;
             transform.Translate(new Vector3(0, distToRaise, 0), Space.World);
+            transform.rotation = Quaternion.Euler(270f, 0, 0);
         }
     }
 
