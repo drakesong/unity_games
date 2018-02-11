@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 957
-  m_MinSize: {x: 683, y: 492}
+  m_MinSize: {x: 506, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 50
+  controlID: 11
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 957
-  m_MinSize: {x: 406, y: 492}
+  m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 51
+  controlID: 12
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 560
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 52
+  controlID: 13
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,8 +176,8 @@ MonoBehaviour:
     y: 0
     width: 379
     height: 560
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -201,8 +201,8 @@ MonoBehaviour:
     y: 0
     width: 1152
     height: 560
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -256,14 +256,14 @@ MonoBehaviour:
     y: 0
     width: 389
     height: 957
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 21}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 21}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -358,7 +358,7 @@ MonoBehaviour:
       name: Assembly-CSharp-Editor.dll
       fullName: C:/Users/Drake/Documents/Unity Udemy/Bowlmaster/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
       resultStatus: 1
-      duration: 0.5632204
+      duration: 0.5571969
       messages: 
       output: 
       stacktrace: 
@@ -369,7 +369,7 @@ MonoBehaviour:
       name: ActionMasterTest
       fullName: ActionMasterTest
       resultStatus: 1
-      duration: 0.5510104
+      duration: 0.536205
       messages: 
       output: 
       stacktrace: 
@@ -380,7 +380,7 @@ MonoBehaviour:
       name: T00PassingTest
       fullName: ActionMasterTest.T00PassingTest
       resultStatus: 1
-      duration: 0.0383729
+      duration: 0.032896
       messages: 
       output: 
       stacktrace: 
@@ -391,7 +391,7 @@ MonoBehaviour:
       name: T01OneStrikeReturnsEndTurn
       fullName: ActionMasterTest.T01OneStrikeReturnsEndTurn
       resultStatus: 1
-      duration: 0.0232412
+      duration: 0.0238012
       messages: 
       output: 
       stacktrace: 
@@ -402,7 +402,7 @@ MonoBehaviour:
       name: T02Bowl8ReturnsTidy
       fullName: ActionMasterTest.T02Bowl8ReturnsTidy
       resultStatus: 1
-      duration: 0.0206046
+      duration: 0.0294637
       messages: 
       output: 
       stacktrace: 
@@ -413,7 +413,7 @@ MonoBehaviour:
       name: T04Bowl28SpareReturnsEndTurn
       fullName: ActionMasterTest.T04Bowl28SpareReturnsEndTurn
       resultStatus: 1
-      duration: 0.0100226
+      duration: 0.0212195
       messages: 
       output: 
       stacktrace: 
@@ -424,7 +424,7 @@ MonoBehaviour:
       name: T05CheckResetAtStrikeInLastFrame
       fullName: ActionMasterTest.T05CheckResetAtStrikeInLastFrame
       resultStatus: 1
-      duration: 0.0196057
+      duration: 0.0222523
       messages: 
       output: 
       stacktrace: 
@@ -435,7 +435,7 @@ MonoBehaviour:
       name: T06CheckResetAtSpareInLastFrame
       fullName: ActionMasterTest.T06CheckResetAtSpareInLastFrame
       resultStatus: 1
-      duration: 0.0184523
+      duration: 0.0208647
       messages: 
       output: 
       stacktrace: 
@@ -446,7 +446,7 @@ MonoBehaviour:
       name: T07YouTubeRollsEndInEndGame
       fullName: ActionMasterTest.T07YouTubeRollsEndInEndGame
       resultStatus: 1
-      duration: 0.0065273
+      duration: 0.0065605
       messages: 
       output: 
       stacktrace: 
@@ -457,7 +457,7 @@ MonoBehaviour:
       name: T08GameEndsAtBowl20
       fullName: ActionMasterTest.T08GameEndsAtBowl20
       resultStatus: 1
-      duration: 0.0098059
+      duration: 0.0054024
       messages: 
       output: 
       stacktrace: 
@@ -468,7 +468,7 @@ MonoBehaviour:
       name: T09DarylBowl20Test
       fullName: ActionMasterTest.T09DarylBowl20Test
       resultStatus: 1
-      duration: 0.0194486
+      duration: 0.0168262
       messages: 
       output: 
       stacktrace: 
@@ -479,7 +479,7 @@ MonoBehaviour:
       name: T10BensBowl20Test
       fullName: ActionMasterTest.T10BensBowl20Test
       resultStatus: 1
-      duration: 0.0186508
+      duration: 0.0113269
       messages: 
       output: 
       stacktrace: 
@@ -490,7 +490,7 @@ MonoBehaviour:
       name: T11NathanBowlIndexTest
       fullName: ActionMasterTest.T11NathanBowlIndexTest
       resultStatus: 1
-      duration: 0.0177168
+      duration: 0.0323217
       messages: 
       output: 
       stacktrace: 
@@ -501,14 +501,14 @@ MonoBehaviour:
       name: T12Dondi10thFrameTurkey
       fullName: ActionMasterTest.T12Dondi10thFrameTurkey
       resultStatus: 1
-      duration: 0.0199348
+      duration: 0.0080681
       messages: 
       output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
-    m_ResultText: T05CheckResetAtStrikeInLastFrame (0.020s)
+    m_ResultText: T05CheckResetAtStrikeInLastFrame (0.022s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
@@ -715,9 +715,9 @@ MonoBehaviour:
     height: 539
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6c2500006e25000070250000722500007425000076250000782500007a2500007c2500007e250000
+    m_SelectedIDs: 3a060000
     m_LastClickedID: 0
-    m_ExpandedIDs: 24e8ffff0ae9ffffe4fbffff00000000e6270000
+    m_ExpandedIDs: 44deffff58e2ffff72e6ffffdaf0ffffe6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -735,8 +735,7 @@ MonoBehaviour:
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
-  m_ExpandedScenes:
-  - Game
+  m_ExpandedScenes: []
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -767,14 +766,14 @@ MonoBehaviour:
     width: 1148
     height: 539
   m_SceneLighting: 1
-  lastFramingTime: 124.82628115002126
+  lastFramingTime: 130.83511720453703
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -471.53928, y: -799.62244, z: 1685.9496}
+    m_Target: {x: -24.89592, y: 1.3006592, z: 1863.0116}
     speed: 2
-    m_Value: {x: -471.53928, y: -799.62244, z: 1685.9496}
+    m_Value: {x: -24.89592, y: 1.3006592, z: 1863.0116}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -797,13 +796,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.37834308, y: 0.5039434, z: -0.2606839, w: -0.731397}
+    m_Target: {x: -0.17420082, y: 0.55571425, z: -0.12041263, w: -0.80395055}
     speed: 2
-    m_Value: {x: -0.37834308, y: 0.5039434, z: -0.2606839, w: -0.731397}
+    m_Value: {x: -0.17420083, y: 0.5557143, z: -0.12041264, w: -0.8039506}
   m_Size:
-    m_Target: 1205.2047
+    m_Target: 196.12874
     speed: 2
-    m_Value: 1205.2047
+    m_Value: 196.12874
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -877,19 +876,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Editor
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Editor
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Drake\Documents\Unity Udemy\Bowlmaster
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 52250000
-    m_LastClickedID: 9554
-    m_ExpandedIDs: 00000000cc2400004a2500005c25000000ca9a3bffffff7f
+    m_SelectedIDs: 8a250000
+    m_LastClickedID: 9610
+    m_ExpandedIDs: 00000000d0240000502500006225000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -917,7 +916,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000cc2400004a2500005c250000
+    m_ExpandedIDs: 00000000d02400005025000062250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
