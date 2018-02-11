@@ -20,4 +20,4 @@ course on Udemy.
     * Plants vs. Zombies game to learn sprite animations and more complex
     grid systems.
 6. Bowlmaster
-    * Learning the use of Physics and Unity 5
+    * Development of a 3D game using TDD
