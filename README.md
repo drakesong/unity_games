@@ -1,8 +1,7 @@
 # Unity Games
 
 ###### Description:
-Learning how to use Unity and C# through creating games as taught by an online
-course on Udemy.
+Learning how to use Unity 4, Unity 5, and C# through creating games.
 
 ###### Games:
 1. Number Wizard
@@ -21,3 +20,5 @@ course on Udemy.
     grid systems.
 6. Bowlmaster
     * Development of a 3D game using TDD
+7. Zombie Runner
+    * Open world game with 3D terrain, built-in character controllers, and AI navigation and pathfinding.
