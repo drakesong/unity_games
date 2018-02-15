@@ -4,18 +4,19 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
     public Transform playerSpawnPoints;
-    public bool respawn = false;
+    private bool respawn = false;
+    public Helicopter helicopter;
 
     private Transform[] spawnPoints;
     private bool lastToggle = false;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start() {
         spawnPoints = playerSpawnPoints.GetComponentsInChildren<Transform>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    }
+
+    // Update is called once per frame
+    void Update() {
         if (lastToggle != respawn) {
             Respawn();
             respawn = false;
@@ -23,11 +24,14 @@ public class Player : MonoBehaviour {
         else {
             lastToggle = respawn;
         }
-		
-	}
+    }
 
     private void Respawn() {
         int i = Random.Range(1, spawnPoints.Length);
         transform.position = spawnPoints[i].transform.position;
+    }
+
+    void OnFindClearArea() {
+        helicopter.Call();
     }
 }

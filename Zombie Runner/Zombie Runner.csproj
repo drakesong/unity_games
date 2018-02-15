@@ -84,6 +84,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ClearArea.cs" />
     <Compile Include="Assets\Scripts\DayCycle.cs" />
     <Compile Include="Assets\Scripts\Eyes.cs" />
     <Compile Include="Assets\Scripts\Helicopter.cs" />
