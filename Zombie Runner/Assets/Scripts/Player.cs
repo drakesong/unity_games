@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
     public Transform playerSpawnPoints;
+    public GameObject landingAreaPrefab;
 
     private bool respawn = false;
     private Transform[] spawnPoints;
@@ -33,6 +34,6 @@ public class Player : MonoBehaviour {
     }
 
     void DropFlare() {
-
+        Instantiate(landingAreaPrefab, transform.position, transform.rotation);
     }
 }
